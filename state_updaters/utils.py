@@ -1,5 +1,6 @@
 import jax
-from jax.numpy import jnp
+import jax.numpy as jnp
+
 from constants import K_spring, mu_friction, g
 
 
