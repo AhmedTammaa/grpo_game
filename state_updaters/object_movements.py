@@ -1,5 +1,6 @@
 import jax
-from jax.numpy import jnp
+import jax.numpy as jnp
+
 from constants import M_min, M_total, K_mass, dt
 from state_updaters import calculate_forces
 
